@@ -24,6 +24,7 @@ public class BookCabSuccess extends HttpServlet {
 				+ "<head>\r\n"
 				+ "    <link rel=\"stylesheet\" href=\"style.css\">\r\n"
 				+ "    <title> Book Cab Success page </title>\r\n"
+				+ "  <style> body { background-image: url('./image/cab.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;} </style> \r\n"
 				+ "\r\n"
 				+ "\r\n"
 				+ "    <body>\r\n"

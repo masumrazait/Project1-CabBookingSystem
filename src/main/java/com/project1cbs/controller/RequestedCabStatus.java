@@ -51,7 +51,9 @@ public class RequestedCabStatus extends HttpServlet {
 				+ "					overflow: hidden;\r\n"
 				+ "					box-shadow: 0 0 20px rgba(0,0,0,0.1);\r\n"
 				+ "				}\r\n"
-			
+				+ "		body { background-image: url('./image/cab1.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;} \r\n"
+				
+				
 				+ "				th,\r\n"
 				+ "				td {\r\n"
 				+ "					padding: 15px;\r\n"

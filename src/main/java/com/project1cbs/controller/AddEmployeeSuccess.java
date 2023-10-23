@@ -24,6 +24,7 @@ public class AddEmployeeSuccess extends HttpServlet {
 				+ "<head>\r\n"
 				+ "    <link rel=\"stylesheet\" href=\"style.css\">\r\n"
 				+ "    <title> Add Eployee Success page </title>\r\n"
+				+ "  <style> body { background-image: url('./image/cab4.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;} </style> \r\n"
 				+ "\r\n"
 				+ "\r\n"
 				+ "    <body>\r\n"

@@ -52,6 +52,8 @@ public class EmployeeServlet extends HttpServlet {
 				+ "            color: rgb(158, 245, 245);\r\n"
 				+ "        } */\r\n"
 				+           ""
+				+ "body { background-image: url('./image/cab3.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;} \r\n"
+				
 				+ "				table {\r\n"
             
 				+ "					width: 800px;\r\n"

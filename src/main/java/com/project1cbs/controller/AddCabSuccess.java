@@ -28,7 +28,9 @@ public class AddCabSuccess extends HttpServlet {
 				+ "\r\n"
 				+ "<head>\r\n"
 				+ "    <link rel=\"stylesheet\" href=\"style.css\">\r\n"
+				+ "  <style> body { background-image: url('./image/cab2.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;} </style> \r\n"
 				+ "    <title> Addcab Success page </title>\r\n"
+				
 				+ "\r\n"
 				+ "\r\n"
 				+ "    <body>\r\n"

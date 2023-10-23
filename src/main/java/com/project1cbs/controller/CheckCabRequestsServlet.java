@@ -42,6 +42,8 @@ public class CheckCabRequestsServlet extends HttpServlet {
 				+ "    <link rel=\"stylesheet\" href=\"style.css\">\r\n"
 				+ "    <title>Cab Request page</title>\r\n"
 				+ "    <style>\r\n"
+				+ "  body { background-image: url('./image/cab4.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;} \r\n"
+				
 				+ "        /* div.buttons {\r\n"
 				+ "            display: grid;\r\n"
 				+ "            grid-gap: 10px;\r\n"

@@ -9,6 +9,12 @@
             display: grid;
             grid-gap: 10px;
         }
+        body {
+            background-image: url('./image/cab2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
         
         button:hover {
             color: rgb(158, 245, 245);
@@ -39,6 +45,9 @@
                         <select id="cars" name="cabmodel">
                        <option value="sedan">sedan</option>
                        <option value="suv">suv</option>
+                       <option value="benz">benz</option>
+                       <option value="coupes">coupes</option>
+                       <option value="convertibles">convertibles</option>
                     </select>
                         <input type="text" placeholder="driver name" name="drivername" required/>
                         <input type="text" placeholder="driver mobile no." name="drivmobno" required/>
