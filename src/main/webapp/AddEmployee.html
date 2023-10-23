@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Add employee</title>
+    <style>
+        div.buttons {
+            display: grid;
+            grid-gap: 10px;
+        }
+        
+        button:hover {
+            color: rgb(158, 245, 245);
+        }
+    </style>
+
+    <body>
+          <div style="float:right">
+				<form align="right" name="form1" method="post" action="LogoutServlet">
+				 <label class="logoutLblPos">
+				   <button class="btns" type="submit">Logout</button>
+			       </label>
+				</form>
+				 </div>
+        <body>
+            <div class="login-page">
+                <div class="form">
+                    <div class="login">
+                        <div class="login-header">
+                            <h3>Add Employee Details</h3>
+                        </div>
+                    </div>
+                    <form class="login-form" action="AddEmployeeServlet" method="post">
+                        
+                        <input type="text" placeholder="Emp Name" name="empname" required/>
+                        <input type="email" placeholder="Emp Email" name="empemail" required/>
+                        <input type="text" placeholder="Department" name="empdept" required/>
+                        <label for="cars">Select manager or not</label>
+                        <select id="cars" name="managerOrNot">
+                           <option value="manager">Manager</option>
+                           <option value="employee">Employee</option>
+                      </select>
+                        <div class="buttons">
+                            <button type="reset" class="button">reset</button>
+                            <button type="submit" class="button">submit</button>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </body>
+    </body>
+
+</html>
