@@ -32,11 +32,6 @@ To-do list:
 * Building the web pages as responsive as possible
 * Write more Junit test cases
 
-## Getting Started
-
-```
- git clone https://github.com/SudarsanRaut/Project1-CabBookingSystem.git
-```
 
 
 -Right click on the project -> Click on `Run` as -> Then `Run on Server`
@@ -44,7 +39,7 @@ To-do list:
 ## Usage
 
 #### Entity Relationship (ER) Diagram
-![ER Diagram](https://github.com/SudarsanRaut/Project1-CabBookingSystem/blob/018e0bd49a1bf3b0ee9eccfb0fc7ef1e38fa7e16/images/DB-Design.png)
+![ER Diagram](https://github.com/masumrazait/Project1-CabBookingSystem/blob/018e0bd49a1bf3b0ee9eccfb0fc7ef1e38fa7e16/images/DB-Design.png)
 
 
 
